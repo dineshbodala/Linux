@@ -7,6 +7,7 @@ Linux is a kernel, not an operating system. The Linux kernel is combined with th
 The Linux file system follows a hierarchical structure with the root at its highest level directory.
 
 ![Linux Image](FileArchitecture.png)
+*Image Source: [Linux Image](https://linkedin.github.io/school-of-sre/level101/linux_basics/images/linux/commands/image17.png)*
 - **bin:** The executable program of most commonly used commands resides in the bin directory.
 - **dev:** This directory contains files related to devices on the system.
 - **etc:** This directory contains all the system configuration files.
@@ -39,7 +40,7 @@ The Linux file system follows a hierarchical structure with the root at its high
 
 ## Commands for Text Processing
 - **grep:** Used for searching (e.g., `grep "text_for_searching" <file_name>`).
-- **sed:** Used for replacing text in a file (e.g., `sed 's/<text_to_replace>/<replacement_text>/' <file_name>`).
+- **sed:** Used for replacing text in a file (e.g., `sed 's/<text_to_replace>/<replacement_text>/' <file_name>` -i).
 - **sort:** Used for sorting.
 
 ## I/O Redirection
