@@ -22,7 +22,7 @@ Users in Linux have a User ID (UID) attached to them. A group is a collection of
 
 - `useradd`: Creates a new username (`useradd <username>`).
 - `passwd`: Adds or modifies the password of a user.
-  After running `useradd` command, the password won't be assigned. `passwd <username>` gives a password prompt.
+  After running `useradd` command, the password won't be assigned. (passwd  <username>) gives a password prompt.
 - `usermod`: Modifies attributes of a user like shell or home directory (`usermod <username> -s bin/sh`).
 - `userdel`: Deletes a user.
 - `su <username>`: Changes user from one to another.
