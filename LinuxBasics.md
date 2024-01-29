@@ -40,7 +40,7 @@ The Linux file system follows a hierarchical structure with the root at its high
 
 ## Commands for Text Processing
 - **grep:** Used for searching (e.g., `grep "text_for_searching" <file_name>`).
-- **sed:** Used for replacing text in a file (e.g., `sed 's/<text_to_replace>/<replacement_text>/' <file_name>` -i).
+- **sed:** Used for replacing text in a file (e.g., `sed 's/<text_to_replace>/<replacement_text>/' <file_name> -i').
 - **sort:** Used for sorting.
 
 ## I/O Redirection
