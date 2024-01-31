@@ -94,3 +94,30 @@ Files or directories are assigned access permissions for owner, group, and other
 - `chmod`: For changing permissions (`chmod 777 <file_name>`).
 - `chown`: For changing owners of a file or directory (`chown <new_owner> <file_name>`).
 - `chgrp`: For changing group ownership of files or directories (`chgrp <new_owner> <file_name>`).
+
+
+# PROCESS MANAGEMENT
+
+- `ps`: Gives a list of processes.
+- `ps aux`: Displays information about all processes along with users running them.
+- `grep` in combination with `ps` command to list only specific processes. (e.g., `ps | grep -i 'java'`)
+  - `-i` for making search case insensitive.
+- `top`: Displays real-time information about Linux processes, including process ID, owner, priority, state, CPU utilization, memory utilization, system uptime, and CPU load average.
+- `htop`: Interactive version of `top`.
+- `lsof`: Lists open files and associated processes.
+
+## MEMORY MANAGEMENT
+
+- `free`: Displays memory usage of the system (`free -h` to display in GB).
+- `vmstat`: Displays memory usage, I/O, and CPU statistics.
+- `df`: Displays free and available space for each mounted file system (`df -h` to display in GB).
+- `du`: Displays disk usage of files and directories on the system.
+- **Swap space:** Reserved area on a storage device used as an extension of physical RAM when memory is fully utilized.
+- **Daemons:** Processes that run in the background without user interaction.
+- `systemd`: Linux system and service manager, utilizing unit configuration files (ending with `.service`) in `/usr/lib/systemd/system` to manage services.
+  - `systemctl` is used to start, stop, and restart these services.
+
+# LOGS
+
+- `/var/log`: Stores logs related to daemon processes along with system logs.
+- `dmesg`: Shows kernel logs.
