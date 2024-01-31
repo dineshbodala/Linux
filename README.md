@@ -96,7 +96,7 @@ Files or directories are assigned access permissions for owner, group, and other
 - `chgrp`: For changing group ownership of files or directories (`chgrp <new_owner> <file_name>`).
 
 
-# PROCESS MANAGEMENT
+## PROCESS MANAGEMENT
 
 - `ps`: Gives a list of processes.
 - `ps aux`: Displays information about all processes along with users running them.
