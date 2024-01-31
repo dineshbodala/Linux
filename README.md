@@ -115,7 +115,7 @@ Files or directories are assigned access permissions for owner, group, and other
 - **Swap space:** Reserved area on a storage device used as an extension of physical RAM when memory is fully utilized.
 - **Daemons:** Processes that run in the background without user interaction.
 - `systemd`: Linux system and service manager, utilizing unit configuration files (ending with `.service`) in `/usr/lib/systemd/system` to manage services.
-  - `systemctl` is used to start, stop, and restart these services.
+  - `systemctl` is used to start, stop, and restart these services.  (systemctl start name.service - Starts a service)
 
 # LOGS
 
