@@ -117,7 +117,7 @@ Files or directories are assigned access permissions for owner, group, and other
 - `systemd`: Linux system and service manager, utilizing unit configuration files (ending with `.service`) in `/usr/lib/systemd/system` to manage services.
   - `systemctl` is used to start, stop, and restart these services.  (systemctl start name.service - Starts a service)
 
-# LOGS
+## LOGS
 
 - `/var/log`: Stores logs related to daemon processes along with system logs.
 - `dmesg`: Shows kernel logs.
