@@ -121,3 +121,8 @@ Files or directories are assigned access permissions for owner, group, and other
 
 - `/var/log`: Stores logs related to daemon processes along with system logs.
 - `dmesg`: Shows kernel logs.
+
+## Ctrl+C VS Ctrl+Z
+
+- 'Ctrl+C' - Sends SIGINT signal to the process for termination.
+- 'Ctrl+V' - Sends SIGTSTP signal that suspends the process and puts in background. It can be resumed using 'fg' or to get it working in foreground  or use 'bg' to keep it running in background.
