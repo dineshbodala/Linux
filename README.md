@@ -127,7 +127,7 @@ Files or directories are assigned access permissions for owner, group, and other
 - 'Ctrl+C' - Sends SIGINT signal to the process for termination.
 - 'Ctrl+V' - Sends SIGTSTP signal that suspends the process and puts in background. It can be resumed using 'fg' or to get it working in foreground  or use 'bg' to keep it running in background.
 
-## Network Commands README
+## Network Commands 
 
 To interact with various components of a network environment such as DNS (Domain Name System), UDP (User Datagram Protocol), HTTP (Hypertext Transfer Protocol), TCP (Transmission Control Protocol), and Routing, you can use a combination of commands and tools available in different operating systems. Below, we'll outline some commonly used commands for each component along with examples:
 
@@ -190,9 +190,6 @@ Example:  route -n
 ### traceroute or tracert:
 - These commands are used to trace the route packets take from one networked device to another.
 Example: traceroute example.com
-
-
-
 
 
 
