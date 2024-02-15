@@ -135,19 +135,19 @@ To interact with various components of a network environment such as DNS (Domain
 
 ### nslookup:
 - This command is used to query DNS servers to obtain domain name or IP address mapping, or other DNS records.
-Example: nslookup example.com
+- Example: nslookup example.com
 
 
 ## UDP (User Datagram Protocol):
 
 ### netcat or nc:
 - Netcat can be used to create UDP connections and send data over UDP.
-Example: echo "Hello, UDP Server!" | nc -u server_ip port
+- Example: echo "Hello, UDP Server!" | nc -u server_ip port
 
   
 ### udpdump:
 - This command is used to capture and analyze UDP packets on a network interface.
-Example: sudo udpdump -i eth0 udp port 53
+- Example: sudo udpdump -i eth0 udp port 53
 
 
 
@@ -155,41 +155,41 @@ Example: sudo udpdump -i eth0 udp port 53
 
 ### curl:
 - A command-line tool for transferring data using various protocols, including HTTP.
-Example: curl https://api.example.com/data
+- Example: curl https://api.example.com/data
 
 
 ### wget:
 - Another command-line tool for downloading files from the web, which supports HTTP.
-Example: wget https://example.com/file.txt
+- Example: wget https://example.com/file.txt
 
 
 ### telnet:
 - While not exclusive to HTTP, it can be used to interact with HTTP servers directly by sending raw HTTP requests.
-Example: example.com 80
+- Example: example.com 80
 
 
 ## TCP (Transmission Control Protocol):
 
 ### netstat:
 - This command displays TCP connections and listening ports.
-Example: netstat -an
+- Example: netstat -an
 
 
 ### telnet:
 - Similar to its use with HTTP, telnet can be used to establish TCP connections to specific ports on remote servers for testing purposes.
-Example:  telnet example.com 443
+- Example:  telnet example.com 443
 
 
 ## Routing:
 
 ### route (on Unix-like systems) or route print (on Windows):
 - These commands display and manipulate the IP routing table.
-Example:  route -n
+- Example:  route -n
 
 
 ### traceroute or tracert:
 - These commands are used to trace the route packets take from one networked device to another.
-Example: traceroute example.com
+- Example: traceroute example.com
 
 
 
