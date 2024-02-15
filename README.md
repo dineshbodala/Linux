@@ -181,8 +181,8 @@ Files or directories are assigned access permissions for owner, group, and other
 
 ## Routing:
 
-### route (on Unix-like systems) or route print (on Windows):
-- These commands display and manipulate the IP routing table.
+### route
+- This command display and manipulate the IP routing table.
 - Example:  route -n
 
 
