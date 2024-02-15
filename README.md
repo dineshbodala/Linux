@@ -126,3 +126,74 @@ Files or directories are assigned access permissions for owner, group, and other
 
 - 'Ctrl+C' - Sends SIGINT signal to the process for termination.
 - 'Ctrl+V' - Sends SIGTSTP signal that suspends the process and puts in background. It can be resumed using 'fg' or to get it working in foreground  or use 'bg' to keep it running in background.
+
+## Network Commands README
+
+To interact with various components of a network environment such as DNS (Domain Name System), UDP (User Datagram Protocol), HTTP (Hypertext Transfer Protocol), TCP (Transmission Control Protocol), and Routing, you can use a combination of commands and tools available in different operating systems. Below, we'll outline some commonly used commands for each component along with examples:
+
+## DNS (Domain Name System):
+
+### nslookup:
+- This command is used to query DNS servers to obtain domain name or IP address mapping, or other DNS records.
+Example: nslookup example.com
+
+
+## UDP (User Datagram Protocol):
+
+### netcat or nc:
+- Netcat can be used to create UDP connections and send data over UDP.
+Example: echo "Hello, UDP Server!" | nc -u server_ip port
+
+  
+### udpdump:
+- This command is used to capture and analyze UDP packets on a network interface.
+Example: sudo udpdump -i eth0 udp port 53
+
+
+
+## HTTP (Hypertext Transfer Protocol):
+
+### curl:
+- A command-line tool for transferring data using various protocols, including HTTP.
+Example: curl https://api.example.com/data
+
+
+### wget:
+- Another command-line tool for downloading files from the web, which supports HTTP.
+Example: wget https://example.com/file.txt
+
+
+### telnet:
+- While not exclusive to HTTP, it can be used to interact with HTTP servers directly by sending raw HTTP requests.
+Example: example.com 80
+
+
+## TCP (Transmission Control Protocol):
+
+### netstat:
+- This command displays TCP connections and listening ports.
+Example: netstat -an
+
+
+### telnet:
+- Similar to its use with HTTP, telnet can be used to establish TCP connections to specific ports on remote servers for testing purposes.
+Example:  telnet example.com 443
+
+
+## Routing:
+
+### route (on Unix-like systems) or route print (on Windows):
+- These commands display and manipulate the IP routing table.
+Example:  route -n
+
+
+### traceroute or tracert:
+- These commands are used to trace the route packets take from one networked device to another.
+Example: traceroute example.com
+
+
+
+
+
+
+
