@@ -136,6 +136,23 @@ Files or directories are assigned access permissions for owner, group, and other
 - This command is used to query DNS servers to obtain domain name or IP address mapping, or other DNS records.
 - Example: nslookup example.com
 
+## Using Hostname Aliases Instead of IP Addresses
+
+Instead of directly pinging an IP address, you can set up hostname aliases in your `/etc/hosts` file. This allows you to associate a recognizable hostname with an IP address locally, making it easier to manage and reference frequently accessed hosts.
+
+### Example:
+
+Suppose you want to ping the Google DNS server `8.8.8.8`. Instead of typing `ping 8.8.8.8` every time, you can set up an alias in your `/etc/hosts` file like this:
+
+```
+8.8.8.8 google
+```
+
+Now, you can simply use the hostname `google` instead of the IP address when pinging:
+
+```bash
+ping google
+```
 
 ## UDP (User Datagram Protocol):
 
