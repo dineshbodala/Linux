@@ -52,6 +52,22 @@ In Linux, everything is treated as a file.
 
 Linux-based OS’s are multi-user in nature. SSH makes the life of Linux users easy by enabling multiple connections at the same time.
 
+## SSH
+
+### SSH Configuration Guide
+
+1. **Locate SSH-related files**:  
+   Find the SSH-related configuration files in the `/etc/ssh` directory.
+
+2. **Disable root login**:  
+   To disable root login, edit the SSH configuration file (e.g., `sshd_config`) and set the parameter `PermitRootLogin` to `no`. After making this change, restart the SSH service with the following command:
+   
+   ```bash
+   sudo systemctl restart sshd
+
+
+
+
 ## USER/GROUP MANAGEMENT 
 
 Users in Linux have a User ID (UID) attached to them. A group is a collection of users, making it easier to share permissions among a group of users. A group has a Group ID (GID).
