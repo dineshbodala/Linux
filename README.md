@@ -105,6 +105,8 @@ Files or directories are assigned access permissions for owner, group, and other
 - Write: 2
 - Execute: 1
 
+To be executed make sure you give read and execute permissions to a file.
+
 ### COMMANDS
 
 - `chmod`: For changing permissions (`chmod 777 <file_name>`).
