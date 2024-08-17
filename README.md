@@ -225,6 +225,13 @@ ping google
 - These commands are used to trace the route packets take from one networked device to another.
 - Example: traceroute example.com
 
+## Tar
 
+### 1. `tar` Command Overview
+- The `tar` command is used to create, extract, and manage archive files in Unix-like systems. It stands for **t**ape **ar**chive
+  and it can bundle multiple files and directories into a single file
+
+- **`tar -cvf`**: Creates an uncompressed `.tar` archive file.
+- **`tar -czvf`**: Creates a compressed `.tar.gz` archive using gzip.
 
 
