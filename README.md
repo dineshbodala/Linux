@@ -112,6 +112,8 @@ To be executed make sure you give read and execute permissions to a file.
 - `chmod`: For changing permissions (`chmod 777 <file_name>`).
 - `chown`: For changing owners of a file or directory (`chown <new_owner> <file_name>`).
 - `chgrp`: For changing group ownership of files or directories (`chgrp <new_owner> <file_name>`).
+- 'setfacl': For modifying the access control lists (ACLs) of files and directories with respect to a user. 
+  ('setfacl -m u:jim:0 /file') - Sets 0 permissions to the user jim) 
 
 
 ## PROCESS MANAGEMENT
