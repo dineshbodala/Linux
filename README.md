@@ -237,4 +237,23 @@ ping google
 - **`tar -cvf`**: Creates an uncompressed `.tar` archive file.
 - **`tar -czvf`**: Creates a compressed `.tar.gz` archive using gzip.
 
+## Cron
+
+- Cron is a time based scheduler allowing users to automate repetitive tasks by scheduling commands or scripts to run at  intervals.
+
+#### Example Cron Syntax
+
+crontab -e 
+
+```bash
+* * * * * command/to/run
+| | | | |
+| | | | ----- Day of the week (0 - 7) (Sunday=0 or 7)
+| | | ------- Month (1 - 12)
+| | --------- Day of the month (1 - 31)
+| ----------- Hour (0 - 23)
+------------- Minute (0 - 59)
+
+- For a particular user to allow to set a cron job. Create a file /etc/cron.allow and enter user name.
+- To deny, Create a file /etc/cron.deny and enter user name.
 
