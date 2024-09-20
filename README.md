@@ -257,3 +257,8 @@ crontab -e
 - For a particular user to allow to set a cron job. Create a file /etc/cron.allow and enter user name.
 - To deny, Create a file /etc/cron.deny and enter user name.
 
+## Shutdown from CLI
+
+```bash
+/sbin/shutdown now
+```
